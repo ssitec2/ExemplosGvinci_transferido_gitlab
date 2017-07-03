@@ -1,0 +1,743 @@
+body { 
+	font-family: Arial; font-size: 70%;
+	
+	}
+
+p { 
+	margin-top: 5px; 
+	}
+
+a:link { 
+	color: #0033cc;
+	}
+
+a:visited { 
+	color: #830000;
+	}
+
+a:hover,a:active { 
+	color: #ff0000;
+	}
+
+ul, ol, blockquote { 
+	margin-top: 5px; 
+	margin-bottom: 10px; 
+	margin-left: 20px 
+	}
+
+form {
+	margin: 0px;
+	}
+
+h1	{
+	font-size: 140%;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+	}
+
+h2	{ 
+	font-size: 120%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h3	{ 
+	font-size: 100%; font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h4	{ 
+	font-size: 90%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h5	{ 
+	font-size: 95%; font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h6	{ 
+	font-size: 80%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+th	{ 
+	font-family: Arial; font-size: 70%;
+	}
+
+td { 
+	font-family: Arial; font-size: 70%;
+	}
+
+.Header {
+	width: 170px;
+	}
+
+.Header th { 
+	font-size: 90%;
+	padding: 2px;
+	background-color: #3d84cc; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	}
+
+.Header a:link { 
+	color: #ffffff;
+	}
+
+.Header a:visited { 
+	color: #ffffff;
+	}
+
+.Header a:hover, .Caption a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeft { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRight { 
+	background-image: url('Images/HeaderRight.gif');
+	}
+
+.HeaderLeft img{
+	width: 9px;
+	}
+
+.HeaderRight img{
+	width: 12px;
+	}
+
+.Grid { 
+	border-left: 1px solid #3d84cc; border-bottom: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.Caption th { 
+	font-size: 70%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #c0eebc; color: #000000;
+	white-space: nowrap;
+	}
+
+.Caption td { 
+	font-size: 70%; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #c0eebc; color: #000000;
+	white-space: nowrap;
+	}
+
+.Caption a:link { 
+	color: #000000;
+	}
+
+.Caption a:visited { 
+	color: #000000;
+	}
+
+.Caption a:hover, .Caption a:active { 
+	color: #ff0000;
+	}
+
+.Caption img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Caption input {
+	vertical-align: middle;
+	}
+
+.Row th { 
+	font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f8fa; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Row td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	background-color: #f7f8fa; 
+	color: #000000;
+	}
+
+.Row a:link { 
+	color: #0033cc;
+	}
+
+.Row a:visited { 
+	color: #830000;
+	}
+
+.Row a:hover, .Row a:active { 
+	color: #ff0000;
+	}
+
+.Separator{
+	color: #3d84cc;
+	}
+
+.Separator td{
+	height: 1px;
+	}
+
+.AltRow th { 
+	font-size: 70%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f8fa; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRow td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	background-color: #e6eff7; 
+	color: #000000;
+	}
+
+.AltRow a:link { 
+	color: #0033cc;
+	}
+
+.AltRow a:visited { 
+	color: #830000;
+	}
+
+.AltRow a:hover, .AltRow a:active { 
+	color: #ff0000;
+	}
+
+.NoRecords td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f8fa; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.Footer td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #c0eebc; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Footer a:link { 
+	color: #0033cc;
+	}
+
+.Footer a:visited { 
+	color: #830000;
+	}
+
+.Footer a:hover, .Footer a:active { 
+	color: #ff0000;
+	}
+
+.Footer img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Footer input {
+	vertical-align: middle;
+	}
+
+.Record { 
+	border-left: 1px solid #3d84cc; border-bottom: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.Error td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f7f8fa; 
+	}
+
+.ProgressBarVisible
+{
+	visibility:visible
+}
+.ProgressBarInvisible
+{
+	visibility:hidden
+}
+
+Controls
+{
+	border:1px solid #3d84cc;
+}
+
+.Controls th { 
+	font-size: 100%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 2px;
+	border: 1px solid #3d84cc;
+	background-color: #f7f8fa; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Controls td { 
+	font-size: 100%;
+	padding: 2px;
+	border: 1px solid #3d84cc;
+	vertical-align: top;
+	background-color: #f7f8fa; 
+	color: #000000;
+	}
+
+.Bottom td { 
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #c0eebc; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Bottom a:link { 
+	color: #0033cc;
+	}
+
+.Bottom a:visited { 
+	color: #830000;
+	}
+
+.Bottom a:hover, .Caption a:active { 
+	color: #ff0000;
+	}
+
+.Bottom img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.Bottom input {
+	vertical-align: middle;
+	}
+
+.GroupCaption th{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	white-space: nowrap;
+	text-align: left; 
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e6eff7; 
+	color: #000000;
+	}
+
+.GroupCaption td{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f7f8fa; 
+	color: #000000;
+	}
+
+.GroupCaption a:link {
+	color: #000000;
+	}
+
+.GroupCaption a:visited{
+	color: #000000;
+	}
+
+.GroupCaption a:hover, .GroupCaption a:active{
+	color: #ff0000;
+	}
+
+.GroupFooter td{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #c0eebc; 
+	color: #000000;
+	}
+
+.GroupFooter a:link {
+	color: #0033cc;
+	}
+
+.GroupFooter a:visited{
+	color: #830000;
+	}
+
+.GroupFooter a:hover,.GroupFooter a:active{
+	color: #ff0000;
+	}
+
+.GroupFooter img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooter input {
+	vertical-align: middle;
+	}
+
+.SubTotal td{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #e6eff7; 
+	color: #000000;
+	border-bottom: 2px solid #3d84cc;
+	}
+
+.SubTotal a:link {
+	color: #0033cc;
+	}
+
+.SubTotal a:visited{
+	color: #830000;
+	}
+
+.SubTotal a:hover, .SubTotal a:active{
+	color: #ff0000;
+	}
+
+.Total td{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #e6eff7; 
+	color: #000000;
+	}
+
+.Total a:link {
+	color: #0033cc;
+	}
+
+.Total a:visited{
+	color: #830000;
+	}
+
+.Total a:hover, .Total a:active{
+	color: #ff0000;
+	}
+
+.Button { 
+	margin: 2px
+	}
+
+.Calendar { 
+	border: 1px solid #3d84cc;
+	width: 100%;
+	}
+
+.CalendarWeekdayName{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #e6eff7; 
+	color: #000000;
+	}
+
+.CalendarWeekdayName a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekdayName a:visited{
+	color: #830000;
+	}
+
+.CalendarWeekdayName a:hover, .CalendarWeekdayName a:active{
+	color: #ff0000;
+	}
+
+.CalendarWeekendName{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #e6eff7;	
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendName a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link, .CalendarWeekendName a:visited{
+	color: #ff0000;
+	}
+
+/* Calendar Day */
+.CalendarDay{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f8fa;	
+	color: #000000;
+	}
+
+.CalendarDay a:link {
+	color: #0033cc;
+	}
+
+.CalendarDay a:visited{
+	color: #830000;
+	}
+
+.CalendarDay a:hover, .CalendarDay a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekend{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center;
+	background-color: #e6eff7;	
+	color: #000000;
+	}
+
+.CalendarWeekend a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekend a:visited{
+	color: #830000;
+	}
+
+.CalendarWeekend a:hover, .CalendarWeekend a:active{
+	color: #ff0000;
+	}
+
+/* Calendar Today */
+.CalendarToday {
+	font-size: 70%;
+	border-top: 3px solid #3d84cc; border-right: 3px solid #3d84cc; border-left: 2px solid #3d84cc; border-bottom: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f8fa;	
+	color: #000000;
+	}
+
+.CalendarToday a:link {
+	color: #0033cc;
+	}
+
+.CalendarToday a:visited{
+	color: #830000;
+	}
+
+.CalendarToday a:hover, .CalendarToday a:active {
+	color: #ff0000;
+	}
+
+.CalendarWeekendToday {
+	font-size: 70%;
+	border-top: 3px solid #3d84cc; border-right: 3px solid #3d84cc; border-left: 2px solid #3d84cc; border-bottom: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #e6eff7;	
+	color: #000000;
+	}
+
+.CalendarWeekendToday a:link {
+	color: #0033cc;
+	}
+
+.CalendarWeekendToday a:visited{
+	color: #830000;
+	}
+
+.CalendarWeekendToday a:hover, .CalendarWeekendToday a:active{
+	color: #ff0000;
+	}
+
+.CalendarOtherMonthDay{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f8fa;	
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthDay a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthDay a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthDay a:hover, .CalendarOtherMonthDay a:active{
+	color: #ff0000;
+	}
+
+.CalendarOtherMonthToday {
+	font-size: 70%;
+	border-top: 3px solid #3d84cc; border-right: 3px solid #3d84cc; border-left: 2px solid #3d84cc; border-bottom: 2px solid #3d84cc;
+	text-align: center;
+	background-color: #f7f8fa;	
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthToday a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthToday a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthToday a:hover,.CalendarOtherMonthToday a:active{
+	color: #ff0000;
+	}
+
+.CalendarOtherMonthWeekend {
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	text-align: center;
+	background-color: #e6eff7;	
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekend a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekend a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekend a:hover, .CalendarOtherMonthWeekend a:active{
+	color: #ff0000;
+	}
+
+.CalendarOtherMonthWeekendToday {
+	font-size: 70%;
+	border-top: 3px solid #3d84cc; border-right: 3px solid #3d84cc; border-left: 2px solid #3d84cc; border-bottom: 2px solid #3d84cc;
+	text-align: center;
+	color: #3d84cc;
+	background-color: #e6eff7;	
+	}
+
+.CalendarOtherMonthWeekendToday a:link {
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendToday a:visited{
+	color: #3d84cc;
+	}
+
+.CalendarOtherMonthWeekendToday a:hover, .CalendarOtherMonthWeekendToday a:active{
+	color: #ff0000;
+	}
+
+.CalendarSelectedDay{
+	font-size: 70%;
+	padding: 2px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #c0eebc;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.CalendarSelectedDay a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:hover, .CalendarSelectedDay a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigator {
+	font-size: 70%;
+	padding: 2px;
+	background-color: #c0eebc; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.CalendarNavigator a:link {
+	color: #0033cc;
+	}
+
+.CalendarNavigator a:visited{
+	color: #830000;
+	}
+
+.CalendarNavigator a:hover, .CalendarNavigator a:active{
+	color: #ff0000;
+	}
+
+.CalendarNavigator img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarEvent{
+	font-size: 80%;
+	text-align: left;
+	}
+
+.CalendarEvent a:link {
+	color: #0033cc;
+	}
+
+.CalendarEvent a:visited{
+	color: #830000;
+	}
+
+.CalendarEvent a:hover, .CalendarEvent a:active{
+	color: #ff0000;
+	}

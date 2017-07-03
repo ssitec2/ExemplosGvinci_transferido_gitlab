@@ -1,0 +1,1609 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 807px;
+	height: 694px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 807px;
+	height: 694px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 633px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #F2F2F2;
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	margin-left: -362px;
+	margin-top: -316px;
+	width: 724px;
+	height: 633px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div5
+{
+	background-color: #C4D9F1;
+	position: absolute !important;
+	left: -1px;
+	top: -1px;
+	width: 724px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label24
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 6px;
+	top: 4px;
+	width: 270px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#ControlsAjaxPanel
+{
+	position: absolute !important;
+	left: 13px;
+	top: 43px;
+	width: 699px;
+	height: 579px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#txtViews
+{
+	width: 184px;
+	height: 21px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtViews_wrapper
+{
+	position: absolute !important;
+	left: 21px;
+	top: 29px;
+	width: 184px !important;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 21px;
+	top: 11px;
+	width: 154px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboDbs
+{
+	position: absolute !important;
+	left: 232px;
+	top: 29px;
+	width: 212px;
+	width: 212px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 233px;
+	top: 11px;
+	width: 140px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label23
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 21px;
+	top: 411px;
+	width: 140px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #545454;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#txtQuery
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 658px;
+	height: 103px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtQuery_wrapper
+{
+	position: absolute !important;
+	left: 21px;
+	top: 428px;
+	width: 658px !important;
+}
+
+#ControlsPanel
+{
+	position: absolute !important;
+	left: 22px;
+	top: 57px;
+	width: 658px;
+	height: 352px;
+	background-color: Transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabControl1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabItem1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage1
+{
+	bottom: -1px;
+	cursor: inherit;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: -1px;
+	top: 27px;
+}
+
+#lstTables
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 15px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 15px;
+	top: 13px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#lstFields
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 222px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label4
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 222px;
+	top: 13px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboColumnFunc
+{
+	position: absolute !important;
+	left: 15px;
+	top: 278px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label5
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 15px;
+	top: 254px;
+	width: 170px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboColumnContent
+{
+	position: absolute !important;
+	left: 222px;
+	top: 278px;
+	width: 159px;
+	width: 159px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label6
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 222px;
+	top: 254px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#txtColumnTitle
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 159px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtColumnTitle_wrapper
+{
+	position: absolute !important;
+	left: 435px;
+	top: 276px;
+	width: 159px !important;
+}
+
+#Label7
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 435px;
+	top: 254px;
+	width: 159px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#butNewCol
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 607px;
+	top: 276px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 28px;
+}
+
+#lstSelectedField
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 435px;
+	top: 37px;
+	width: 159px;
+	height: 206px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label22
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 435px;
+	top: 13px;
+	width: 198px;
+	height: 22px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#butUpField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 603px;
+	top: 37px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDownField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 603px;
+	top: 61px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDelJoin
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 187px;
+	top: 225px;
+	background-image: url('../Images/ViewConstructorModule/Menos.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butAddField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 398px;
+	top: 37px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDelField
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 398px;
+	top: 61px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#TabItem2
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage2
+{
+	bottom: -1px;
+	cursor: inherit;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: -1px;
+	top: 27px;
+}
+
+#lstGroup
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 9px;
+	top: 35px;
+	width: 173px;
+	height: 116px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label8
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 9px;
+	top: 10px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label9
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 9px;
+	top: 160px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#lstOrder
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 9px;
+	top: 186px;
+	width: 173px;
+	height: 116px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#lstSelectedGroupBy
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 234px;
+	top: 35px;
+	width: 173px;
+	height: 116px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label10
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 234px;
+	top: 10px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label11
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 234px;
+	top: 160px;
+	width: 173px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#lstSelectedOrderBy
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 234px;
+	top: 186px;
+	width: 173px;
+	height: 116px;
+	background-color: #D7E6F7;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.rdbAsc
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 457px;
+	top: 186px;
+	width: 148px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#butUpOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 186px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDownGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 57px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butUpGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 35px;
+	background-image: url('../Images/ViewConstructorModule/Cima.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDownOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 417px;
+	top: 207px;
+	background-image: url('../Images/ViewConstructorModule/Baixo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.rdbDesc
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 457px;
+	top: 207px;
+	width: 148px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#butDelGroupBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 57px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butDelOrderBy
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 207px;
+	background-image: url('../Images/ViewConstructorModule/Esquerda.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butAddGroup
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 35px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butAddOrder
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 196px;
+	top: 186px;
+	background-image: url('../Images/ViewConstructorModule/Direita.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#TabItem3
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#TabPage3
+{
+	bottom: -1px;
+	cursor: inherit;
+	left: 1px;
+	opacity: 1;
+	position: absolute;
+	right: -1px;
+	top: 27px;
+}
+
+#txtTopRegisters
+{
+	width: 139px;
+	height: 22px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtTopRegisters_wrapper
+{
+	position: absolute !important;
+	left: 170px;
+	top: 11px;
+	width: 139px !important;
+}
+
+#Label12
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 14px;
+	top: 16px;
+	width: 155px;
+	height: 15px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboJoinType
+{
+	position: absolute !important;
+	left: 25px;
+	top: 90px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label14
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 25px;
+	top: 131px;
+	width: 157px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboJoinTable
+{
+	position: absolute !important;
+	left: 25px;
+	top: 148px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#cboJoinField
+{
+	position: absolute !important;
+	left: 201px;
+	top: 90px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#cboJoinOperator
+{
+	position: absolute !important;
+	left: 201px;
+	top: 148px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#cboJoinBaseField
+{
+	position: absolute !important;
+	left: 382px;
+	top: 90px;
+	width: 160px;
+	width: 160px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label15
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 201px;
+	top: 72px;
+	width: 163px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label16
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 201px;
+	top: 131px;
+	width: 163px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label17
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 382px;
+	top: 72px;
+	width: 160px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label13
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 25px;
+	top: 72px;
+	width: 157px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#butAddJoin
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 551px;
+	top: 154px;
+	background-image: url('../Images/ViewConstructorModule/Mais.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#Label18
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 382px;
+	top: 131px;
+	width: 160px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#txtJoinAlias
+{
+	width: 160px;
+	height: 22px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtJoinAlias_wrapper
+{
+	position: absolute !important;
+	left: 382px;
+	top: 148px;
+	width: 160px !important;
+}
+
+#Label26
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 18px;
+	top: 48px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboField
+{
+	position: absolute !important;
+	left: 29px;
+	top: 237px;
+	width: 137px;
+	width: 137px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#cboOperator
+{
+	position: absolute !important;
+	left: 205px;
+	top: 237px;
+	width: 143px;
+	width: 143px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label20
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 205px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#cboValue
+{
+	position: absolute !important;
+	left: 386px;
+	top: 237px;
+	width: 140px;
+	width: 140px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Label21
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 386px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.rdbAnd
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 30px;
+	top: 269px;
+	width: 45px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.rdbOr
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 116px;
+	top: 269px;
+	width: 49px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#butAddFilter
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 555px;
+	top: 219px;
+	background-image: url('../Images/ViewConstructorModule/Mais.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#butClearFilter
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 555px;
+	top: 243px;
+	background-image: url('../Images/ViewConstructorModule/Menos.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 18px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+#Label19
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 29px;
+	top: 220px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label25
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 22px;
+	top: 195px;
+	width: 143px;
+	height: 24px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Line1
+{
+	position: absolute !important;
+	left: 19px;
+	top: 185px;
+	width: 598px;
+	height: 1px;
+	background-color: #ABC1DE;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#butSave
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 577px;
+	top: 542px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#butTest
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 472px;
+	top: 542px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#ResultLabel
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 25px;
+	top: 536px;
+	width: 434px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+

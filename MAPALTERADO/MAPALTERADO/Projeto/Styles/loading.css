@@ -1,0 +1,9 @@
+.GasLoadingAjaxVisible
+{
+	display:inline; 
+	text-align:right  ; 
+}
+.GasLoadingAjaxInvisible
+{
+    display:none;
+}

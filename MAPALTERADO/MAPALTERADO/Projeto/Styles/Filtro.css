@@ -1,0 +1,318 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 717px;
+	height: 537px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 717px;
+	height: 537px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 447px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#ajxMainAjaxPanel
+{
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	margin-left: -310px;
+	margin-top: -223px;
+	width: 621px;
+	height: 447px;
+	background-color: #F2F2F2;
+	border-color: #333333;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.rdAnd
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 28px;
+	top: 107px;
+	width: 40px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+.rdOr
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 112px;
+	top: 107px;
+	width: 50px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#txtExpression
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 586px;
+	height: 248px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtExpression_wrapper
+{
+	position: absolute !important;
+	left: 17px;
+	top: 145px;
+	width: 586px !important;
+}
+
+#butExecuteFilter
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 399px;
+	top: 409px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#butClearFilter
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 503px;
+	top: 409px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+
+#Div1
+{
+	position: absolute !important;
+	left: 17px;
+	top: 21px;
+	width: 586px;
+	height: 68px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#cboField
+{
+	position: absolute !important;
+	left: 10px;
+	top: 34px;
+	width: 205px;
+	width: 205px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#cboOperator
+{
+	position: absolute !important;
+	left: 237px;
+	top: 34px;
+	width: 110px;
+	width: 110px !important;
+	height: 22px;
+	height: 22px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#txtValue
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 203px;
+	height: 22px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtValue_wrapper
+{
+	position: absolute !important;
+	left: 370px;
+	top: 34px;
+	width: 203px !important;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 10px;
+	top: 13px;
+	width: 100px;
+	height: 20px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 237px;
+	top: 13px;
+	width: 100px;
+	height: 20px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 370px;
+	top: 13px;
+	width: 100px;
+	height: 20px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#FieldDate_wrapper
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 370px;
+	top: 34px;
+	width: 201px;
+	height: 20px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#butConcatenate
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 503px;
+	top: 106px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 100px;
+}
+

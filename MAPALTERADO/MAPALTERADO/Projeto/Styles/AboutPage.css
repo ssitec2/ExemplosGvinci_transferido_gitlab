@@ -1,0 +1,207 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	height: 377px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	height: 377px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 213px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #F2F2F2;
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	margin-left: -252px;
+	margin-top: -106px;
+	width: 504px;
+	height: 213px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div4
+{
+	background-color: #C4D9F1;
+	position: absolute !important;
+	left: -1px;
+	top: -1px;
+	width: 504px;
+	height: 53px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labSolutionTitle
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 5px;
+	top: 6px;
+	width: 456px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#ProjectVersion
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 5px;
+	top: 27px;
+	width: 100px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Panel1
+{
+	position: absolute !important;
+	left: 50%;
+	top: 64px;
+	margin-left: -236px;
+	width: 470px;
+	height: 111px;
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #CCCCCC;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#labProjectTitle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 18px;
+	top: 17px;
+	width: 215px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#CompanyName
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 18px;
+	top: 43px;
+	width: 215px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#DeveloperName
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 18px;
+	top: 69px;
+	width: 215px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#ProjectCopyright
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 50%;
+	top: 181px;
+	margin-left: -185px;
+	width: 371px;
+	height: 21px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Center;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+

@@ -1,0 +1,21 @@
+        protected void ___LookUpNavigation(object sender, EventArgs e)
+        {
+            try
+            {
+                string Url = "ViewPesquisa.aspx";
+                string targets = "";
+                switch (((ImageButton)sender).ClientID)
+                {
+                    case "TextBox2ExtensorImage":
+                        targets = "xxx";
+                        Session["LookUpFilterTextBox2"] = "";
+                        LookUpNavega(Url + "?ProviderName=NotaTextBox2LookUpDataProvider&target=" + targets + "&ControlName=TextBox2&ReturnField=Nome");
+                        break;
+                    default:
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }

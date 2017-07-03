@@ -1,0 +1,229 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	width: 909px;
+	height: 478px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	width: 909px;
+	height: 478px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 0 0 0;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#AjaxPanel1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	right: 0px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Image1
+{
+	position: absolute !important;
+	left: 52px;
+	top: 151px;
+	width: 152px;
+	height: 152px;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Div1
+{
+	background-color: #F2F2F2;
+	position: absolute !important;
+	left: 254px;
+	top: 146px;
+	width: 583px;
+	height: 182px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label4
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 57px;
+	width: 500px;
+	height: 21px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Div2
+{
+	background-color: #FFFFFF;
+	position: absolute !important;
+	left: 20px;
+	top: 86px;
+	width: 540px;
+	height: 79px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 15px;
+	width: 73px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#Label3
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 46px;
+	width: 73px;
+	height: 18px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+#labHttpErrorCode
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 104px;
+	top: 15px;
+	width: 424px;
+	height: 18px;
+	background-color: Transparent;
+	color: #B32D34;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#labHttpErrorMessage
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 104px;
+	top: 46px;
+	width: 427px;
+	height: 18px;
+	background-color: Transparent;
+	color: #B32D34;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 36px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 7px;
+	width: 552px;
+	height: 43px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #B32D34;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+

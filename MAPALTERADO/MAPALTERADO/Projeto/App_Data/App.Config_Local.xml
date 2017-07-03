@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Configuration>
+	<!--Databases-->
+	<Databases>
+		<Database Name="22326MAKOTO">
+			<Setting key="Type" value="Sql"/>
+			<Setting key="StringConnection" value="Server=.;Database=22326MAKOTO;Trusted_Connection=true"/>
+			<Setting key="Server" value="MSSQLSERVER"/>
+			<Setting key="BoolFormat" value="1;0"/>
+			<Setting key="DateFormat" value="yyyy/MM/dd HH:mm:ss"/>
+			<Setting key="IdentifierDelimiterInitial" value="["/>
+			<Setting key="IdentifierDelimiterFinal" value="]"/>
+			<Setting key="StringDelimiterInitial" value="N'"/>
+			<Setting key="StringDelimiterFinal" value="'"/>
+			<Setting key="DateRightDelimeter" value="'"/>
+			<Setting key="DateLeftDelimeter" value="'"/>
+			<Setting key="Optimized" value="True"/>
+			<Setting key="ParameterDelimiter" value="@"/>
+			<Setting key="User" value=""/>
+			<Setting key="Password" value=""/>
+			<Setting key="WinAut" value="True"/>
+			<Setting key="ServerName" value="."/>
+			<Setting key="RunAdapter" value="True"/>
+			<Setting key="CheckDatabase" value="True"/>
+			<Setting key="DataBaseName" value="22326MAKOTO"/>
+			<Setting key="DataBaseAdapterName" value="22326TEMP"/>
+		</Database>
+	</Databases>
+	<!--End Databases-->
+</Configuration>

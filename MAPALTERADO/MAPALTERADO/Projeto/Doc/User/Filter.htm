@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Filtro</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+<body>
+<h2>Filtros</h2>
+
+<p>Filtrar dados economiza tempo, pois direciona a procura para o conteúdo desejado, apresentando somente os itens que correspondem às condições da filtragem.</p>
+
+<p>A tela de filtragem, apresenta as condições a serem preenchidas:</p>
+
+<center></center>
+ 
+<p>Nome do campo: Exibe os campos disponíveis que terão seus dados filtrados.</p>
+
+<p>Operador:Mostra uma lista de operadores que podem ser usados na condição de filtragem. Observe a lista de operadores abaixo:</p>
+
+	<center><table>
+			<tr style="background-color:Silver; text-align:center"><th style="text-align:center ;font-weight:bold">Tecla </th><td style="text-align:center ; font-weight:bold">Função que desempenha</td></tr>
+			<tr><th>=</th><td>igual a...</td></tr>	
+			<tr><th><></th><td>diferente de...</td></tr>	
+			<tr><th>></th><td>maior que...</td></tr>	
+			<tr><th>>=</th><td>maior ou igual a</td></tr>	
+			<tr><th><</th><td>menor que...</td></tr>	
+			<tr><th><=</th><td>menor ou igual a...</td></tr>
+			<tr><th><</th><td>menor que...</td></tr>
+			<tr><th>LIKE</th><td>operador especial que usa caracteres</br>coringa (veja este termo no Glossário)</td></tr>
+	</table></center></br>
+
+<p>O campo valor deve ser usado para inserir a condição propriamente dita, ou seja, os itens que serão buscados e exibidos obedecerão a esse valor. </p>
+
+<p>Operador LIKE : Este operador tem a vantagem de tornar a pesquisa mais abrangente, oferecendo a possibilidade de substituir os caracteres do conteúdo dos campos filtrados por caracteres coringa tais quais apresentados abaixo:</p>
+
+<center>
+	<table>
+			<tr style="background-color:Silver; text-align:center"><th style="text-align:center">Caracter</th><td style="text-align:center">Exemplo</td><td style="text-align:center">Comentário</td></tr>
+			<tr><th>*</th><td>pes*</br>*dico</td><td>localiza pessoa, pescador, pestelocaliza </br>médico, ortopédico, pudico</td></tr>
+			<tr><th>?</th><td>p?lha</td><td>localiza palha, pilha, pulha</td></tr>
+			<tr><th>#</th><td>1#3</td><td>localiza 103, 113, 123</td></tr>
+			<tr><th>[ ]</th><td>p[ai]lha</td><td>localiza palha e pilha mas não pulha</td></tr>
+			<tr><th>!</th><td>p[!ai]lha</td><td>localiza pulha mas não palha nem pilha</td></tr>
+			<tr><th>-</th><td>p[a-c]lha</td><td>localiza palha, pblha, pclha</td></tr>
+	</table>
+</center>
+
+<h3>Ordenação</h3>
+<p>Se for necessário pode-se usar o botão Concatena e clicar na seleção E.. OU... para fazer comparações, apenas para exemplificar,  do tipo:</p>
+<ol>
+<li><span>Funcionários do Departamento de Compras "E" que sejam do sexo masculino.</span></li>
+<li><span>Funcionários solteiros "OU" que possuam menos de 21 anos.</span></li>
+<li><span>Após informados os parâmetros do filtro, basta clicar no botão de confirmação.</span></li>
+</ol>
+	
+<p>O retângulo com o nome "Expressão que define o critério de seleção" é simplesmente demonstrativo e mostra como está sendo montada a expressão SQL que irá possibilitar a seleção dos registros.</p>
+</body>
+</html>

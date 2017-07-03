@@ -1,0 +1,503 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1013px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#ajxMainAjaxPanel
+{
+	position: absolute !important;
+	left: 50%;
+	top: 0px;
+	bottom: 0px;
+	margin-left: -437px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 875px;
+	background-color: #FFFFFF;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#mnuMainMenu
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: 62px;
+	margin-bottom: 2px;
+	width: 95px;
+	cursor: inherit;
+	opacity: 1;
+	z-index: 2500 !important;
+}
+
+#mnuMainMenu > ul
+{
+	height: 100%;
+	width: 100%;
+}
+
+#mnuMainMenu  > ul > li
+{
+	width: 100%;
+}
+
+#MenuItem1
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem15
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem16
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem17
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem5
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem18
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem19
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem20
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem21
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem22
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem23
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem24
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem25
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem14
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem26
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem27
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#MenuItem28
+{
+	cursor: inherit;
+	opacity: 1;
+}
+
+#IFrame1
+{
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+}
+
+#Div1
+{
+	background-color: #C4D9F1;
+	position: absolute !important;
+	left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	right: 0px;
+	height: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labProjectTitle
+{
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 10px;
+	top: 4px;
+	width: 634px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#Line1
+{
+	position: absolute !important;
+	left: 0px;
+	bottom: 0px;
+	margin-right: 0px;
+	right: 0px;
+	height: 1px;
+	background-color: #333333;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#Div2
+{
+	background-color: #E7E7E7;
+	position: absolute !important;
+	left: 0px;
+	top: 33px;
+	margin-right: 0px;
+	right: 0px;
+	height: 27px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#tbMain
+{
+	z-index:0 !important;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	margin-right: 0px;
+	right: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#tbMain .rtbInner > ul > li > a
+{
+	background-position: center;
+	height: 22px !important;
+}
+
+#tbMain .rtbWrap
+{
+	padding: 0px !important;
+}
+
+.Button1
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Novo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button2
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Gravar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button3
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Cancelar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button4
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Lixo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button5
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Primeiro.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button6
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Anterior.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button7
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Proximo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button8
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Ultimo.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button9
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Filtrar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button10
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Editar.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+
+.Button11
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	background-image: url('../Images/AspxModule/Sair.png') !important;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-color: #FFFFFF;
+	border-width: 0px;
+	color: #333333;
+	cursor: pointer;
+	height: 22px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 18px;
+}
+

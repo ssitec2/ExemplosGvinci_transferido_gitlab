@@ -1,0 +1,144 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #F2F2F2;
+	position: absolute !important;
+	left: 50%;
+	margin-left: -277px;
+	margin-top: 20px;
+	width: 554px;
+	height: 393px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div4
+{
+	background-color: #C4D9F1;
+	position: absolute !important;
+	left: -1px;
+	top: -1px;
+	width: 554px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Label1
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 8px;
+	top: 4px;
+	width: 100px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#AjaxPanel1
+{
+	position: absolute !important;
+	left: 10px;
+	top: 40px;
+	width: 528px;
+	height: 297px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#grdView
+{
+	position: absolute !important;
+	left: 13px;
+	top: 9px;
+	width: 497px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+.rgEditRow > .grdView_EditColumn
+{
+	width: 20px;
+}
+
+.grdView_EditColumn
+{
+	width: 0px;
+}
+
+#Label21
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 24px;
+	bottom: 5px;
+	width: 346px;
+	height: 30px;
+	background-color: Transparent;
+	color: #B32D34;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+

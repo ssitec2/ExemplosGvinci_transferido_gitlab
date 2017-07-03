@@ -1,0 +1,395 @@
+input[type="button"] {
+	-webkit-appearance: none; 
+	@include border-radius(0);
+}
+
+#Form1
+{
+	opacity: 1;
+}
+
+#Form1_body
+{
+	height: 599px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	background-color: #FFFFFF;
+	height: 599px;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-height: 463px;
+	min-width: 751px;
+	overflow: inherit;
+	position: relative;
+	top: 0px;
+}
+
+#Div1
+{
+	background-color: #F2F2F2;
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	margin-left: -237px;
+	margin-top: -231px;
+	width: 474px;
+	height: 463px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#Div3
+{
+	background-color: #C4D9F1;
+	position: absolute !important;
+	left: -1px;
+	top: -1px;
+	width: 474px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #333333;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+	overflow: inherit;
+}
+
+#labModuleTitle
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: Bolder;
+	position: absolute !important;
+	left: 14px;
+	top: 50%;
+	margin-top: -12px;
+	width: 454px;
+	height: 25px;
+	background-color: Transparent;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+
+#ajxAjaxPanel
+{
+	position: absolute !important;
+	left: 14px;
+	top: 46px;
+	width: 441px;
+	height: 359px;
+	background-color: Transparent;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-width: 1px;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#txtServer
+{
+	width: 410px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtServer_wrapper
+{
+	position: absolute !important;
+	left: 15px;
+	top: 30px;
+	width: 410px !important;
+}
+
+#txtDataBase
+{
+	width: 410px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtDataBase_wrapper
+{
+	position: absolute !important;
+	left: 15px;
+	top: 82px;
+	width: 410px !important;
+}
+
+#chkAutent
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 12px;
+	top: 118px;
+	width: 410px;
+	height: 25px;
+	background-color: Transparent;
+	border-color: #000000;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	direction: ltr;
+	opacity: 1;
+	text-align: Left;
+}
+
+#txtUser
+{
+	width: 410px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtUser_wrapper
+{
+	position: absolute !important;
+	left: 15px;
+	top: 165px;
+	width: 410px !important;
+}
+
+#cboDataType
+{
+	position: absolute !important;
+	left: 15px;
+	top: 267px;
+	width: 410px;
+	width: 410px !important;
+	height: 22px;
+	height: 22px !important;
+	cursor: inherit;
+	opacity: 1;
+}
+
+#txtProvider
+{
+	width: 410px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtProvider_wrapper
+{
+	position: absolute !important;
+	left: 15px;
+	top: 315px;
+	width: 410px !important;
+}
+
+#txtPassword
+{
+	width: 410px;
+	height: 25px;
+	cursor: text;
+	opacity: 1;
+}
+
+.c_txtPassword_wrapper
+{
+	position: absolute !important;
+	left: 15px;
+	top: 216px;
+	width: 410px !important;
+}
+
+#Label2
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 12px;
+	width: 112px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#lbDbName
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 63px;
+	width: 112px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#labPassword
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 146px;
+	width: 112px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#labUser
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 197px;
+	width: 112px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label7
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 248px;
+	width: 112px;
+	height: 25px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#Label9
+{
+	background-color: Transparent;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 15px;
+	top: 296px;
+	width: 112px;
+	height: 19px;
+	border-color: Transparent;
+	border-style: None;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	opacity: 1;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+#butCreate
+{
+	background-color: #D7E6F7;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 376px;
+	top: 420px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	height: 25px;
+	opacity: 1;
+	padding: 0px;
+	text-align: Center;
+	width: 79px;
+}
+
+#labError
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 14px;
+	top: 414px;
+	width: 346px;
+	height: 30px;
+	background-color: Transparent;
+	color: #B32D34;
+	cursor: inherit;
+	opacity: 1;
+	Overflow: hidden;
+	text-align: Left;
+	Text-Overflow: Clip;
+	White-space: nowrap;
+}
+

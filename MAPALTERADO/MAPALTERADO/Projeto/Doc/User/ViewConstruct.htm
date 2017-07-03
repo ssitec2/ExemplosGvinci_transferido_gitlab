@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Construtor de Consulta</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+
+<h2>Criação de consulta</h2>
+
+<p>Uma consulta é necessária quando precisamos de uma seleção de informações em uma pesquisa. Os dados pesquisados na consulta obedecem a parâmetros determinados pelos próprios usuários.</p>
+
+<p>Selecione o módulo Construtor de Consulta para criação de uma nova consulta</p>
+
+<center></center>
+
+<p>Preencha os campos de acordo com as explicações abaixo:. </p>
+
+<h3>Nome da Consulta</h3>
+<p>Insira neste campo o nome pelo qual a consulta será chamada, durante a execução da aplicação.</p>
+
+<h3>Campos a serem apresentados</h3>
+
+<p>Selecione as tabelas e os campos desejados onde será feita a consulta. Vários campos podem ser escolhidos.</p>
+
+<h3>Agrupar por</h3>
+<p>È um recurso muito utilizado na classificação ou agrupamento de informações que possuem pontos em comum, por exemplo, clientes de uma mesma cidade ou funcionários de uma mesma categoria.
+
+<h3>Ordenação</h3>
+<p>A ordenação dos dados que serão mostrados pode ser de forma ascendente ou descendente. Selecione a opção desejada na seção de ordenação. Caso vários campos tenham sido escolhidos na consulta, um dos campos poderá ser escolhido para receber a ordenação, nesse caso, os outros campos obedecerão a ordem do campo escolhido. Observe os campos disponíveis e selecione aqueles que preferir.</p>
+
+<h3>Os Primeiros</h3>
+<p>Se desejar que somente os primeiros registros de uma mesma categoria sejam exibidos, para facilitar a visualização, utilize a opção “Os primeiros”, digitando o número desejado dos registros que serão exibidos primeiro.</p>
+
+<h3>Seleção de registros/união de tabelas</h3>
+<p>Se precisar selecionar registros específicos, a opção Criar Filtragem satisfaz essa necessidade. A opção Unir Tabelas pode ser utilizada para agregar os dados de outra tabela àquela já em uso. Os parâmetros abaixo são necessários quando uma filtragem é usada:</p>
+<ol>
+<p><span>Nome do campo = Insira o nome do campo cujos dados serão filtrados.</span></p>
+<p><span>Operadores = Utilize um dos operadores disponíveis para definir a condição de filtragem.</span></p>
+<p><span>Valor =  é o parâmetro principal da filtragem, o conteúdo do campo deverá ser o mesmo que esse valor.</span></p>
+</ol>
+
+<h3> Criar Filtragem</h3>
+<p>Utilize esta opção se preferir fazer uma seleção dos registros em pesquisa.  </p>
+
+<h3>União de Tabelas</h3>
+
+<p>A opção Unir Tabelas deve ser utilizada sempre que se desejar comparar campos de duas tabelas, neste caso o campo Valor será transformado em uma lista a partir da qual pode-se escolher qual campo de qual tabela será comparado. A união de tabelas irá considerar registros das duas tabelas que tenham conteúdos iguais nos campos informados, estabelecendo a cláusula WHERE (ver glossário).</p>
+
+<p>Para estabelecer uma condição siga os passos abaixo:</p>
+
+<ul><li><span>Clique no campo Nome do Campo para que seja mostrada uma lista com os nomes dos campos que fazem parte da consulta, escolha o campo desejado para estabelecer uma condição;</span></li></ul>
+<ul><li><span>Clique no campo Operador e escolha um dos operadores constantes da tabela a seguir, que corresponde às opções disponíveis na lista:</span></li></ul>
+
+	<center><table>
+			<tr style="background-color:Silver; text-align:center"><th style="text-align:center ;font-weight:bold">Tecla </th><td style="text-align:center ; font-weight:bold">Função que desempenha</td></tr>
+			<tr><th>=</th><td>igual a...</td></tr>	
+			<tr><th><></th><td>diferente de...</td></tr>	
+			<tr><th>></th><td>maior que...</td></tr>	
+			<tr><th>>=</th><td>maior ou igual a</td></tr>	
+			<tr><th><</th><td>menor que...</td></tr>	
+			<tr><th><=</th><td>menor ou igual a...</td></tr>
+			<tr><th><</th><td>menor que...</td></tr>
+			<tr><th>LIKE</th><td>operador especial que usa caracteres</br>coringa (veja este termo no Glossário)</td></tr>
+	</table></center>
+
+<p>Clique no campo Valor e insira a informação que deverá ser comparada com o valor contido na campo escolhido (não use aspas para valores literais constantes).</p>
+   
+<p>Neste ponto foi estabelecida apenas uma condição para a consulta. Agora, clique sobre o botão Concatena para aceitar esta primeira condição.
+Se desejar estabelecer outras condições para serem concatenadas a esta primeira, clique sobre uma das opções de conexão E / OU e proceda conforme descrito anteriormente para o primeiro critério.</p>
+
+<p>Se desejar recomeçar integralmente o estabelecimento do critério de seleção, clique no botão cuja imagem aparece abaixo:</p>
+ 
+<p>As informações que vão sendo mostradas na janela de criação de consultas são instruções de uma linguagem denominada SQL. Não é necessário conhecer esta linguagem pois diversos termos podem ser consultados no glossário. O sistema Título do projeto monta automaticamente esta expressão e a mostra apenas para servir de referência para o usuário saber quais tabelas e campos já selecionou para participar da consulta, bem como as ordenações e filtragens que tenha feito.</p>
+
+<p>Para limpar todas as informações digitadas para uma consulta, permitindo que uma nova consulta seja elaborada, clique sobre o texto e apague seu conteúdo</p>
+ 
+<p>Para  salvar a consulta, após terminar de informar os dados necessários, clique sobre o botão de Salvar:</p>
+  
+</body>
+</html>

@@ -1,0 +1,118 @@
+body
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		color:#464646;
+		font-size: 12px;
+		
+	}
+	
+	h1
+	{
+	   color:#5cabc2;
+	}
+	
+	.topo span 
+	{	
+		float:right;
+		margin:20px 20px 0 0;
+	}
+	
+	h2
+	{
+		font-size: 18px;
+		color:#5cabc2;
+	}
+	
+	h2 span
+	{
+		color:#464646;
+	}
+	
+	h3
+	{
+		font-size: 14px;
+		margin-left:30px;
+		color:#5cabc2;
+	}
+	h3 span
+	{
+		color:#464646;
+	}
+	h4
+	{
+		font-size: 13px;
+		margin-left:35px;
+		color:#5cabc2;
+	}
+	h5
+	{
+		font-size: 13px;
+		margin-left:35px;
+		color:#464646;
+	}
+	table
+	{
+		border: solid 1px;
+	}
+	table td
+	{
+		font-weight: normal;
+		text-align: left;
+        width: 250px;
+		border: solid 1px;
+		
+	}
+	table th
+	{
+		font-weight: bold;
+		text-align: center;
+		width: 200px;
+		border: solid 1px;
+	}
+	.properties 
+	{
+		border-bottom: 1px #666 solid;
+		padding: 15px 0 15px 0;
+	}
+	.properties span 
+	{
+		line-height: 1.6;
+	}
+	.topo
+	{
+		background:url(images/topoDataPage.png) repeat-x;
+		height:81px;
+		padding:0px;
+		margin:0px;
+	}
+	p
+	{
+		margin-left:30px;
+		margin-bottom:15px;
+		margin-top:0px;
+	}
+	li
+	{
+		font-size:small;
+		font-weight:bold;
+		
+	}
+	ul
+	{
+		margin-bottom:5px;
+		margin-top:10px;
+	}
+	li span
+	{
+		font-size:small;
+		font-weight:normal;
+		margin-left:20px;
+		
+	}
+	img
+	{
+		margin-bottom:20px;
+		margin-top:20px;
+		width: 522px;
+		height: 397px;
+	}
