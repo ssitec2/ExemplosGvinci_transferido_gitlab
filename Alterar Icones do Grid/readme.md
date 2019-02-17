@@ -8,7 +8,7 @@ Procedimentos:
 * Crie um evento de server em FormLoad;
 * Crie um evento Customizado de código C#;
 
-![Tela1](https://github.com/SSITec/ExemplosGvinci/blob/master/Alterar%20Icones%20do%20Grid/Tela1.png)
+![Tela1](Tela1.png)
 <br>
 Agora, crie uma função com o seguinte código:
 <br>
@@ -37,15 +37,15 @@ Agora, crie uma função com o seguinte código:
 <br>
 Dentro do Gvinci, irá ficar assim, na aba de código c#:
 
-![Tela2](https://github.com/SSITec/ExemplosGvinci/blob/master/Alterar%20Icones%20do%20Grid/Tela2.png)
+![Tela2](Tela2.png)
 <br>
 <br>
 <br>
 Adicione as imagens, dentro das pastas desejadas. Neste exemplo, criamos na pasta Imagens\Grid.
-![Tela3](https://github.com/SSITec/ExemplosGvinci/blob/master/Alterar%20Icones%20do%20Grid/Tela3.png)
+![Tela3](Tela3.png)
 Pronto. seu projeto terá os botões do grid personalizados.
 <br>
 
 <br>
 Você pode baixar o exemplo neste link:
-[Alterar Icones do Grid.gvn](\Alterar Icones do Grid.gvn "Alterar Icones do Grid.gvn")
+[Alterar Icones do Grid.gvn](Alterar Icones do Grid.gvn "Alterar Icones do Grid.gvn")
