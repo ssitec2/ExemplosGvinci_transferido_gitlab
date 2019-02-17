@@ -43,9 +43,6 @@ Dentro do Gvinci, irá ficar assim, na aba de código c#:
 <br>
 Adicione as imagens, dentro das pastas desejadas. Neste exemplo, criamos na pasta Imagens\Grid.
 ![Tela3](Tela3.png)
-Pronto. seu projeto terá os botões do grid personalizados.
-<br>
 
-<br>
-Você pode baixar o exemplo neste link:
-[Alterar Icones do Grid.gvn](https://github.com/SSITec/ExemplosGvinci/blob/master/Alterar%20Icones%20do%20Grid/Alterar%20Icones%20do%20Grid.gvn)
+
+Pronto. seu projeto terá os botões do grid personalizados.
