@@ -7,11 +7,12 @@ Procedimentos:
 * Abra a tela de propriedades/Eventos;
 * Crie um evento de server em FormLoad;
 * Crie um evento Customizado de código C#;
-![Tela1](\tela1.png)
+
+![Tela1](Tela1.png)
 <br>
 Agora, crie uma função com o seguinte código:
 <br>
-`
+```
 	protected void Form1_OnLoad()
         {
          for (int i = 0; i < Grid1.Columns.Count; i++)
@@ -32,19 +33,16 @@ Agora, crie uma função com o seguinte código:
                 Grid1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl = @"\Images\Grid\delete.png";
             }
          }
-`
+```
 <br>
 Dentro do Gvinci, irá ficar assim, na aba de código c#:
 
-![Tela2](\tela2.png)
+![Tela2](Tela2.png)
 <br>
 <br>
 <br>
 Adicione as imagens, dentro das pastas desejadas. Neste exemplo, criamos na pasta Imagens\Grid.
-![Tela3](\tela3.png)
-Pronto. seu projeto terá os botões do grid personalizados.
-<br>
+![Tela3](Tela3.png)
 
-<br>
-Você pode baixar o exemplo neste link:
-[Alterar Icones do Grid.gvn](\Alterar Icones do Grid.gvn "Alterar Icones do Grid.gvn")
+
+Pronto. seu projeto terá os botões do grid personalizados.
