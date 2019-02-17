@@ -12,7 +12,7 @@ Procedimentos:
 <br>
 Agora, crie uma função com o seguinte código:
 <br>
-`
+```
 	protected void Form1_OnLoad()
         {
          for (int i = 0; i < Grid1.Columns.Count; i++)
@@ -33,7 +33,7 @@ Agora, crie uma função com o seguinte código:
                 Grid1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl = @"\Images\Grid\delete.png";
             }
          }
-`
+```
 <br>
 Dentro do Gvinci, irá ficar assim, na aba de código c#:
 
