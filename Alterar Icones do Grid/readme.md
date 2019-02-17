@@ -48,4 +48,4 @@ Pronto. seu projeto terá os botões do grid personalizados.
 
 <br>
 Você pode baixar o exemplo neste link:
-[Alterar Icones do Grid.gvn](Alterar Icones do Grid.gvn "Alterar Icones do Grid.gvn")
+[Alterar Icones do Grid.gvn](Alterar Icones do Grid.gvn)
